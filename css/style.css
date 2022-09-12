@@ -1,0 +1,228 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: 'Inter', sans-serif !important;
+}
+
+/*coding for navigation start here*/
+.navigation-wrapper,.inner-nav-wrapper{
+	background-color:#302525;
+	height:100px;
+}
+.inner-nav-wrapper{
+	max-width:1600px;
+	padding:20px;
+}
+div li a{
+	font-size:18px;
+	font-weight:500;
+}
+.nav-items-wrapper{
+	column-gap:20px;
+}
+.logo{
+	height:70px;
+}
+@media screen and (max-width:767px){
+	.nav-items-wrapper{
+		position:absolute;
+		row-gap:20px;
+		left:0;
+		top:100px;
+		height:70vh;
+		background-color:black;
+		display:none !important;
+	}
+}
+/*coding for navigation ended here*/
+
+/*coding for hero section start here*/
+.hero-section{
+	background-image: linear-gradient(to left, #10A3D4 , #0049d5 , #004ee5 , #10A3D4);
+}
+.hero-section-child{
+	max-width:1600px;
+	padding:20px;
+}
+.hero-section-caption{
+	font-weight:800;
+	font-size:34pt;
+}
+.hero-section-descriptions li{
+	font-size:16pt;
+	font-weight:400;
+}
+.hero-bg-wrapper{
+	margin-top:20px;
+}
+@media screen and (max-width:767px){
+	.hero-section-caption{
+		font-size:24pt;
+	}
+	.hero-section-descriptions li{
+		font-size:13pt;
+		font-weight:420;
+	}
+}
+@media screen and (min-width:767px) and (max-width:1220px){
+	.hero-section-caption{
+		font-size:20pt;
+	}
+}
+/*coding for here section ended here*/
+
+/*coding for employee section start here*/
+.employee-section{
+	background:url('../images/employee.png');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+.employee-mask{
+	background-color:rgb(14 6 6 / 96%);
+}
+.employee-content{
+	max-width:1600px;
+	padding:20px;
+}
+.start-caption{
+	font-size:40pt;
+	font-weight:800;
+}
+@media screen and (max-width:767px){
+	.start-caption{
+		font-size:24pt;
+	}
+	.start-col{
+		text-align:center;
+	}
+}
+/*coding for employee section ended here*/
+
+/*coding for services start here*/
+.services-section{
+	background-image: linear-gradient(to left, #10A3D4 , #004 , #004e , #10A3D4);
+}
+.services-section-child{
+	max-width:1600px;
+	padding:20px;
+}
+.services-section-caption{
+	font-weight:800;
+}
+.services-section-descriptions li{
+	font-size:16pt;
+	font-weight:400;
+}
+@media screen and (max-width:767px){
+	.services-section-caption{
+		font-size:24pt;
+	}
+	.services-section-descriptions li{
+		font-size:13pt;
+		font-weight:420;
+	}
+	.services-section{
+		background-image: linear-gradient(to left, #10A3D4 , #0049d5 , #004ee5 , #10A3D4);
+	}
+}
+@media screen and (min-width:767px) and (max-width:1220px){
+	.services-section-caption{
+		font-size:20pt;
+	}
+}
+/*coding for services ended here*/
+
+/*coding for grow your business started*/
+.grow-child-section{
+	max-width:1600px;
+	padding:20px;
+}
+.grow-caption{
+	font-weight:800;
+}
+@media screen and (max-width:767px){
+	.grow-caption{
+		font-size:24pt;
+	}
+}
+@media screen and (min-width:767px) and (max-width:1220px){
+	.grow-caption{
+		font-size:20pt;
+	}
+}
+/*coding for grow your bussiness ended*/
+
+/*coding for products start here*/
+.products-section{
+	background-color:lightgrey;
+}
+.products-caption{
+	font-weight:800;
+	font-size:30pt;
+}
+.product-row{
+	row-gap:10px !important;
+}
+@media screen and (max-width:767px){
+	.products-caption{
+		font-size:24pt;
+	}
+}
+@media screen and (min-width:767px) and (max-width:1220px){
+	.products-caption{
+		font-size:20pt;
+	}
+}
+/*coding for products ended here*/
+
+/*coding for gain start here*/
+.gain-section{
+	background-image: linear-gradient(to left, #10A , #0049d5 , #004ee5 , #10A3D4);
+}
+.gain-caption{
+	font-weight:800;
+	font-size:28pt;
+}
+.gain-row{
+	row-gap:10px !important;
+}
+@media screen and (max-width:767px){
+	.gain-caption{
+		font-size:24pt;
+	}
+}
+@media screen and (min-width:767px) and (max-width:1220px){
+	.gain-caption{
+		font-size:20pt;
+	}
+}
+/*coding for gain ended here*/
+/*coding for service start here*/
+.service-section{
+	background-color:lightgrey;
+}
+.service-caption{
+	font-weight:800;
+	font-size:30pt;
+}
+.service-row{
+	row-gap:10px !important;
+}
+@media screen and (max-width:767px){
+	.service-caption{
+		font-size:24pt;
+	}
+}
+@media screen and (min-width:767px) and (max-width:1220px){
+	.service-caption{
+		font-size:20pt;
+	}
+}
+@media screen and (min-width:768px){
+	.service-card-body{
+		display:flex !important;
+		flex-direction:column;
+		height:150px;
+	}
+}
+/*coding for service ended here*/
